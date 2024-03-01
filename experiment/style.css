@@ -4,8 +4,9 @@
 }
 
 .social{
-  padding-left: 185px;
-  padding-top: 5px;
+  padding-left: 180px;
+  padding-top: 4px;
+  padding-bottom: 4px;
   font-size: 15px;
   list-style: none;
   display:flex;
@@ -98,7 +99,7 @@ a:hover{
     padding: 19px;
 }
 .menu-bar ul li:hover{
-    background-color: #4678a1;
+    background-color:#4678a1;
 }
 .menu-bar ul a {
      text-decoration: none;
@@ -134,6 +135,7 @@ ul li:hover .dropdown-menu{
 }
 .dropdown-menu ul li:hover{
     background-color: #27435a;
+;
 }
 
 .fa-angle-right{
@@ -497,7 +499,7 @@ span.next:hover, span.prev:hover{
     left: 0%;
   }
 }
-
+/* ---------------------------------------------------TEXT SLIDER----------------------------------------*/
 .box {
   
   width: 1118px;
