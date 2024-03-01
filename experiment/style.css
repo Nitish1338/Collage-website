@@ -190,7 +190,7 @@ position: absolute;
 margin-left: 280px;
 margin-top: -25.5px;
 }
-/*------------------------------------------------------------SECEOND DROPDOWN MENU--------------------------------------------------*/
+/*------------------------------------------------------------FIRST DROPDOWN MENU--------------------------------------------------*/
    .dropdown-menu1{
     display: none;
     z-index: 10;
@@ -219,7 +219,7 @@ margin-top: -25.5px;
     background-color: #27435a;
   }
 
-  /*-------------------------------------------------------------THIRD DROPDOWN MENU------------------------------------------------*/
+  /*-------------------------------------------------------------SECOND DROPDOWN MENU------------------------------------------------*/
   .dropdown-menu2{
     display: none;
     z-index: 10;
@@ -247,7 +247,7 @@ margin-top: -25.5px;
   .dropdown-menu2 ul li:hover{
     background-color: #27435a;
   }
-  /*------------------------------------------------------FORTH DROPDOWN MENU-----------------------------------------------*/
+  /*------------------------------------------------------THIRD DROPDOWN MENU-----------------------------------------------*/
   .dropdown-menu3{
     display: none;
     z-index: 10;
@@ -300,11 +300,43 @@ margin-top: -25.5px;
     padding:10px;
     text-align: left;
     border-bottom: 1px solid #27435a;
+    border-right: 1px solid #27435a;
     
   }
   .dropdown-menu4 ul li:hover{
     background-color: #27435a;
   }
+.dropdown-menu4  .fa-angle-right{
+  position: absolute;
+  left: 220px;
+}
+.dropdown-menu4 ul li:hover{
+  background-color: #27435a;
+}
+.dropdown-submenu5{
+display: none;
+}
+
+.dropdown-menu4 ul li:hover .dropdown-submenu5{
+display: block;
+position: absolute;
+margin-left: 230px;
+margin-top: -25.5px;
+
+}
+.dropdown-submenu6{
+  display: none;
+  }
+  
+  .dropdown-menu4 ul li:hover .dropdown-submenu6{
+  display: block;
+  position: absolute;
+  margin-left: 230px;
+  margin-top: -25.5px;
+  
+  }
+      
+  
 /*------------------------------------------------------FIFTH DROPDOWN MENU-----------------------------------------------*/
 .dropdown-menu5{
       display: none;
@@ -331,10 +363,8 @@ ul li:hover .dropdown-menu5{
       border-bottom: 1px solid #27435a;
       
 }
-.dropdown-menu5 ul li:hover{
-      background-color: #27435a;
-}
-/*-------------------------------------------------------FIFTH DROPDOWN MENU------------------------------------------------------*/
+
+/*-------------------------------------------------------SIXTH DROPDOWN MENU------------------------------------------------------*/
   .dropdown-menu6{
     display: none;
     z-index: 10;
@@ -367,7 +397,7 @@ ul li:hover .dropdown-menu5{
 .slide-container{
   position: relative;
   width: 1150px;
-  height: 500px;
+  height: 475px;
   margin: auto;
   margin-top: 30px;
 }
