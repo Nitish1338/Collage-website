@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social{
+    padding-left: 180px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 15px;
+    list-style: none;
+    display:flex;
+    background-color: #2f506c;
+    height: 46px;
+  }
+  
+  .icons{
+    color:#7d8e9c;
+    background: #27435a;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+  }
+  .icons:hover{
+     color: white;
+     background: #6091ba;
+  }
+  .header{
+     margin:0;
+     padding:0;
+   }
+  .header-main{
+      padding: 30px 185px;
+  }
+  .menu-top{
+    position: absolute;
+    top: 82px;
+    right: 38px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    padding-right: 150px;
+   
+  }
+  .menu-top li {
+    display: inline-block;
+    list-style: none;
+    border-right: 1px solid darkgray;
+    padding: 0px 10px;
+  
+  }
+  
+  .menu-top a{
+      text-decoration: none;
+      color:darkgray;
+  }
+  .menu-top a:hover{
+    color:#6091ba;
+  }
+  
+  
+  .contact{
+    position: absolute;
+    top: 115px;
+    right: 155px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color:#444444;
+  }
+    .contact p {
+        display: inline-block;
+        padding-right: 20px;
+  }
+  
+  .contact a{
+    text-decoration: none;
+    color:#444444;
+  }
+  .contact .email a:hover{
+    color: #6091ba;
+ }
+  .fa-solid{
+      color:#6091ba;
+      font-size: 18px;
+      padding-right: 5px;
+  }
+  /* ------------------------------------------------NAVBAR--------------------------------------------------------------------------*/
+  .menu-bar ul{
+      text-align: center;
+      font-size: 13px;
+      font-weight: 600;
+      font-family: Arial, Helvetica, sans-serif;
+      list-style-type: none;
+      background: #6091ba;
+  } 
+  .menu-bar li{
+      display: inline-block;
+      padding: 19px;
+  }
+  .menu-bar ul li:hover{
+      background-color:#4678a1;
+  }
+  .menu-bar ul a {
+       text-decoration: none;
+       color: white;
+  }
+  /*-------------------------------------------------------DROPDOWN MENU-------------------------------------------------------*/
+  .dropdown-menu{
+     display: none;
+     z-index: 10;
+    
+  
+  }
+  ul li:hover .dropdown-menu{
+    display: block;
+    position: absolute;
+    margin-left: -19px;
+    margin-top: 19px;
+  }
+  .dropdown-menu ul{
+    width: 290px;
+    
+  }
+  .dropdown-menu ul li{
+    display: block;
+    background-color: #4678a1;
+    font:14px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #27435a;
+    border-right: 1px solid #27435a;
+  }
+  .dropdown-menu ul li:hover{
+      background-color: #27435a;
+  ;
+  }
+  
+  .fa-angle-right{
+    position: absolute;
+    left: 270px;
+  }
+  
+  .dropdown-submenu{
+    display: none;
+  }
+  
+  .dropdown-menu ul li:hover .dropdown-submenu{
+    display: block;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: -25.5px;
+  
+  }
+  .dropdown-submenu1{
+      display: none;
+  }
+  
+  .dropdown-menu ul li:hover .dropdown-submenu1{
+    display: block;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: -25.5px;
+  
+  }
+  .dropdown-submenu2{
+      display: none;
+  }
+  .dropdown-menu ul li:hover .dropdown-submenu2{
+    display: block;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: -25.5px;
+  }
+  .dropdown-submenu3{
+    display: none;
+  }
+  .dropdown-menu ul li:hover .dropdown-submenu3{
+  display: block;
+  position: absolute;
+  margin-left: 280px;
+  margin-top: -25.5px;
+  }
+  .dropdown-submenu4{
+    display: none;
+  }
+  .dropdown-menu ul li:hover .dropdown-submenu4{
+  display: block;
+  position: absolute;
+  margin-left: 280px;
+  margin-top: -25.5px;
+  }
+  
+  
+    
+    /*------------------------------------------------------THIRD DROPDOWN MENU-----------------------------------------------*/
+    .dropdown-menu3{
+      display: none;
+      z-index: 10;
+     }
+     ul li:hover .dropdown-menu3{
+      display: block;
+      position: absolute;
+      margin-left: -19px;
+      margin-top: 19px;
+    
+    }
+    .dropdown-menu3 ul {
+       width: 240px;
+    }
+    .dropdown-menu3 ul li{
+      display: block;
+      background-color: #4678a1;
+      font:14px;
+      font-weight: 600;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #27435a;
+    }
+    .dropdown-menu3 ul li:hover{
+      background-color: #27435a;
+    }
+  
+    
+  /*------------------------------------------------------FIFTH DROPDOWN MENU-----------------------------------------------*/
+  .dropdown-menu5{
+        display: none;
+        z-index: 10;
+  }
+  ul li:hover .dropdown-menu5{
+        display: block;
+        position: absolute;
+        margin-left: -19px;
+        margin-top: 19px;
+      
+  }
+  .dropdown-menu5 ul {
+         width: 240px;
+  }
+  .dropdown-menu5 ul li{
+        display: block;
+        background-color: #4678a1;
+        font:14px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        padding:10px;
+        text-align: left;
+        border-bottom: 1px solid #27435a;
+        
+  }
+  .dropdown-menu5 ul li:hover{
+    background-color: #27435a;
+  }
+  /*--------------------------------------------------------------------------------------------------------*/
+  .detail{
+    height: 50px;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-top: 40px;
+    padding-left: 70px;
+    border-bottom: 1px solid grey;
+}
+.heading{
+    font-size: 24px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-top: 40px;
+    padding-left: 70px;
+}
+.terms p{
+    
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 70px;
+    padding-bottom: 20px;
+}  
+/*------------------------------------------FOOTER-1----------------------------------------------------------*/
+.footer-top{
+    height: 340px;
+    background: #444;
+    color: #fff;
+    margin-top: 30px;  
+    
+}
+.footer-top h3{
+  font-size: 24px;
+  font-weight: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 30px;
+  padding-left: 170px;
+  display: inline-block;
+  text-align: center;
+}
+.footer-top ul{
+   list-style: none;
+   display: block;
+   position: absolute;
+   margin-left: -5px;
+   margin-top: 10px;
+   text-align: left;
+}
+.footer-top li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+}
+.fa-caret-right{
+   padding: 5px;
+   color: #6e7676;
+}
+.footer-top li a:hover{
+   color:#6091ba ;
+}
+.footer-top .adr{
+  font-size: 13px;
+  font-weight: 400;
+  position: absolute;
+  display: block;
+  margin-left: -5px;
+  margin-top: 10px;
+  text-align: left;
+}
+.footer-top .adr p{
+  padding: 10px;
+}
+.footer-top .adr p a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer-top .fa{
+   color: #6e7676 ;
+   font-size: 16px;
+   font-weight: 600;
+   padding-right: 5px;
+}
+.footer-top .adr p a:hover{
+   color:#6091ba ;
+}
+
+/*--------------------------------------------FOOTER-2-------------------------------------------------*/
+.footer-bottom{
+  height: 46px;
+  display:flex;
+  background: #2b2b2b;
+  padding-left: 160px;
+}
+ .footer-bottom small{
+  color: #fff;
+  padding: 15px;
+  font-size: 12px;
+  font-weight: 600;
+ }
+ .social2{
+  padding-left: 600px;
+  font-size: 15px;
+  list-style: none;
+  display:flex;
+
+}
+.icons2{
+  color:#7d8e9c;
+  background: #2b2b2b;
+  font-weight: 600;
+  padding: 8px;
+  margin: 5px;
+}
+.icons2:hover{
+  color:#6091ba
+} 
